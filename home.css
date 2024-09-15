@@ -1,0 +1,124 @@
+.d1{
+    height: auto;
+    width: 1410px;
+    background-color: white;
+    border-radius: 40px;
+    grid-template-rows: repeat(3,1fr);
+    padding-bottom: 40px;
+    
+    
+}
+.d3{
+    display: flex;
+    align-items: center;
+
+}
+.d1>div{
+    margin-top: 10px;
+}
+.main{
+    background-color: #007ced;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.h1{
+    margin-left: 50px;
+    margin-top:50px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.h2{
+    margin-left: 50px;
+    margin-top:50px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 00;
+    font-style: normal;
+}
+.cf{
+    width:350px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    margin-left: 200px;
+    margin-right:100px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.cf:hover{
+    box-shadow: 0 0 20px rgb(78, 164, 255);
+
+}
+.n{
+    text-decoration: none;
+    color: gray;
+    margin-left:30px;
+    transition: text-shadow 0.3s ease-in-out;
+    font-size: 25px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    
+}
+.np{
+    text-decoration: none;
+    color: #007ced;
+    margin-left:30px;
+    font-size: 25px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+
+}
+.n:hover{
+    color: #007ced;
+    text-shadow: 0 0 10px rgb(78, 164, 255);
+}
+.nav{
+    margin-left: 50%;
+    margin-bottom: 10%;
+}
+.p{
+    text-indent: 90px;
+    font-size: 20px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.p1{
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
+.d4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left:170px;
+}
+.b1{
+    width:250px;
+    margin-left: 30px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid#007ced;
+    box-shadow: 0 0 5px #94c7f4;
+}
+.b1:hover{
+    background-color: #007ced;
+    color: white;
+    box-shadow: 0 0 20px #94c7f4;
+}
