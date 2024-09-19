@@ -1,14 +1,13 @@
 .main{
     background-color: #007ced;
     display: flex;
-    justify-content: center;
-    height: 100vh;
+    justify-content: center;
     margin-top: 50px;
     margin-bottom: 100px;
 }
 .d1{
     height:auto;
-    width: 1410px;;
+    width: 1000px;;
     background-color: white;
     border-radius: 40px;
     display: flex;
