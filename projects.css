@@ -63,8 +63,8 @@
 }
 .container{
     display:grid;
-    grid-template-columns: 460 460 460;
-    gap: 10px;
+    grid-template-columns: 450 450 450;
+    gap: auto;
     justify-content: center;
     flex:1;
     margin-bottom: 10px;
